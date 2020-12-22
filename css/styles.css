@@ -1,0 +1,148 @@
+/* design intentionally made horrible to see who doesn't change it*/
+body {
+    font-family: system;
+    font-size: 1.5em;
+}
+
+ul[class="nav"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9932CC;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav > li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav > li a:hover {
+    background-color: #8FBC8F;
+}
+
+
+ul[class="nav"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9932CC;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav > li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav > li a:hover {
+    background-color: #8FBC8F;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #9932CC;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:nth-of-type(1) {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+input:nth-of-type(2) {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+input:nth-of-type(3) {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+input:nth-of-type(4) {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+input:nth-of-type(5) {
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-center {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
